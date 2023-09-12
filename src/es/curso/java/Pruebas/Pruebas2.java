@@ -8,10 +8,5 @@ public class Pruebas2 {
 		// Lo único que se puede cambiar de la función es el "arg".
 		Scanner scan = new Scanner(System.in); 
 
-		// Aulas del colegio
-		System.out.println("Introduzca el numero de aulas: ");
-		int numeroAulas = scan.nextInt();
-		String[][] aulas = new String[numeroAulas][];
-
 		}
 	}
