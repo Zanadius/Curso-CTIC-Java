@@ -3,11 +3,11 @@ package es.curso.java.funciones;
 import java.util.Scanner;
 
 public class calculaEdad {
-	static int calculadorEdad(String []anioNacimiento) {
+	static String calculadorEdad(int[]anioNacimiento) {
 		
 		Scanner scan = new Scanner(System.in);
-		int edad = 2023-scan.nextInt();
-		String fechaNacimiento = Integer.parseStr(edad);
-		return fechaNacimiento;
+		int fechaNacimiento = 2023-scan.nextInt();
+		String edad = String.valueOf(fechaNacimiento);
+		return edad;
 	}
 }
